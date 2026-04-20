@@ -1,0 +1,36 @@
+=========== GUÍA DE PRESENTACIÓN - MATERIA DE PROGRAMACIÓN ===========
+
+Hola, este es tu guion/bloc de notas para apoyar tu presentación ante tu profesor o la clase. Puedes leerlo o adaptarlo mientras muestras el código.
+
+-- INTRODUCCIÓN --
+"Buenos días/tardes. Hoy voy a presentar este repositorio de pruebas en Python.
+El objetivo de este proyecto ha sido consolidar la lógica de programación mediante 15 ejercicios prácticos.
+Para mantenerlo ordenado, dividí los ejercicios en 3 carpetas según su dificultad:
+1. Básico
+2. Intermedio
+3. Avanzado
+
+Y en la raíz dejé un archivo llamado 'resultados_totales.py', donde desarrollé las soluciones formales para cada uno empaquetándolos en funciones."
+
+-- EXPLICANDO LOS CONCEPTOS (Usa el README o muestra código) --
+
+1. LAS FUNCIONES (Muestra el archivo resultados_totales.py)
+"Todo el código de resolución lo he estructurado utilizando funciones con la palabra clave 'def'. Esto es una buena práctica porque me permite tener todo el proyecto en un solo archivo y ejecutar solo la pieza de código que necesito, manteniendo limpio el entorno y permitiendo la reutilización."
+
+2. CONDICIONALES (Puedes mostrar el Ejercicio 2 o el 1)
+"Utilicé estructuras 'if, elif y else' para establecer la lógica de toma de decisiones. Por ejemplo, en el Ejercicio 1 las utilicé para validar que matemáticamente no se puede dividir entre cero antes de arrojar un error, y en ejercicios posteriores para verificar si las respuestas iterativas son correctas."
+
+3. BUCLES - FOR y WHILE (Muestra el Ejercicio 8 y el 10)
+"A lo largo del código van a encontrar dos tipos de bucles.
+- Utilizo 'while' cuando el programa requiere un ciclo infinito hasta que el usuario cumpla una métrica. Por ejemplo, en 'Adivina el Número' o el 'Ahorcado', el juego se ejecuta permanentemente hasta que aciertes o te quedes sin vidas.
+- Utilizo 'for' cuando hay secuencias controladas, por ejemplo para iterar letras dentro de las palabras o al construir la serie de Fibonacci en base a la cantidad de términos solicitados por el usuario."
+
+4. LISTAS Y DICCIONARIOS (Muestra Ejercicio 11 y 14)
+"Para almacenar el flujo de datos usé dos herramientas clave:
+- Listas (arrays): fundamentales para almacenar la cuadrícula del juego Tres en Raya o los intentos del ahorcado.
+- Diccionarios: En el ejercicio 14 construí un sistema que cuenta palabras. Los diccionarios son perfectos aquí ya que guardo la palabra como la 'llave' y su contador numérico como su 'valor'."
+
+-- CONCLUSIÓN --
+"Este proyecto engloba herramientas completas que pasan desde lo procedimental e ingreso de datos, hasta el manejo de arreglos de memoria, algoritmos de búsqueda y estructuras dinámicas."
+
+[Nota para ti: Si te piden ejecutar algo, solo debes abrir resultados_totales.py, y al puro final llamar a la función que quieras: ej. ejercicio_13() y pulsar 'Run']
