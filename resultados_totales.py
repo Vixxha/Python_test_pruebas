@@ -54,6 +54,34 @@ def ejercicio_5():
     palabra = input("Escribe una palabra: ")
     print(f"Palabra invertida: {palabra[::-1]}")
 
+# Ejercicio 16: Área del triángulo
+def ejercicio_16():
+    try:
+        base = float(input("Escribe la base del triángulo: "))
+        altura = float(input("Escribe la altura del triángulo: "))
+        area = (base * altura) / 2
+        print(f"El área del triángulo es: {area}")
+    except ValueError:
+        print("Entrada no válida")
+
+# Ejercicio 17: Temperatura
+def ejercicio_17():
+    try:
+        celsius = float(input("Escribe la temperatura en grados Celsius: "))
+        fahrenheit = (celsius * 9/5) + 32
+        print(f"{celsius}°C equivalen a {fahrenheit}°F")
+    except ValueError:
+        print("Entrada no válida")
+
+# Ejercicio 18: Descuento
+def ejercicio_18():
+    try:
+        precio = float(input("Escribe el precio del producto: "))
+        precio_final = precio - (precio * 0.15)
+        print(f"El precio con 15% de descuento es: {precio_final}")
+    except ValueError:
+        print("Entrada no válida")
+
 # ==========================================
 # NIVEL INTERMEDIO
 # ==========================================

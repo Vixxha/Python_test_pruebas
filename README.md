@@ -1,12 +1,12 @@
 # Colección de Ejercicios y Pruebas en Python
 
-Este repositorio contiene una colección de 15 ejercicios prácticos en Python, diseñados para mejorar las habilidades de programación y algoritmia. Se han estructurado en carpetas por nivel de dificultad para una mejor organización.
+Este repositorio contiene una colección de 18 ejercicios prácticos en Python, diseñados para mejorar las habilidades de programación y algoritmia. Se han estructurado en carpetas por nivel de dificultad para una mejor organización.
 
 El archivo `resultados_totales.py` en la raíz contiene las soluciones oficiales de todos los ejercicios.
 
 ## Estructura del Repositorio
 
-- 📁 **Basico/**: Ejercicios enfocados en entrada/salida de datos, variables y condicionales simples. (Ejercicios 1 a 5)
+- 📁 **Basico/**: Ejercicios enfocados en entrada/salida de datos, variables y condicionales simples. (Ejercicios 1 a 5, 16, 17 y 18)
 - 📁 **Intermedio/**: Ejercicios que introducen bucles anidados, condiciones múltiples y manipulación intermedia de strings. (Ejercicios 6 a 10)
 - 📁 **Avanzado/**: Retos algorítmicos complejos como ordenamiento, lógica de juegos y procesamiento de textos. (Ejercicios 11 a 15)
 
