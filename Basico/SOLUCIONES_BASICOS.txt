@@ -1,0 +1,76 @@
+¡Aquí tienes las soluciones detalladas a los ejercicios del nivel BÁSICO!
+
+====================================
+EJERCICIO 1: Calculadora de división
+====================================
+try:
+    n1 = float(input("Escriba un numero: "))
+    n2 = float(input("Escriba otro numero: "))
+    if n2 == 0:
+        print("Error: NO se puede dividir en 0")
+    else:
+        print(f"El resultado es {n1 / n2}")
+except ValueError:
+    print("Entrada no válida")
+
+
+====================================
+EJERCICIO 2: Mayoría de edad
+====================================
+edad = int(input("¿Cuál es tu edad? "))
+if edad >= 18:
+    print("Eres mayor de edad.")
+else:
+    print("Aún eres menor de edad.")
+
+
+====================================
+EJERCICIO 3: Par o Impar
+====================================
+numero = int(input("Introduce un número entero: "))
+if numero % 2 == 0:
+    print(f"El {numero} es PAR.")
+else:
+    print(f"El {numero} es IMPAR.")
+
+
+====================================
+EJERCICIO 4: Interés compuesto
+====================================
+capital = float(input("Cantidad a invertir: "))
+interes = float(input("Interés anual (%): "))
+anios = int(input("Número de años: "))
+capital_final = capital * ((1 + (interes / 100)) ** anios)
+print(f"El capital obtenido tras {anios} años será de: {round(capital_final, 2)}")
+
+
+====================================
+EJERCICIO 5: Invertir palabra
+====================================
+palabra = input("Escribe una palabra: ")
+print(f"Palabra invertida: {palabra[::-1]}")
+
+
+====================================
+EJERCICIO 16: Área de triángulo
+====================================
+base = float(input("Escribe la base del triángulo: "))
+altura = float(input("Escribe la altura del triángulo: "))
+area = (base * altura) / 2
+print(f"El área del triángulo es: {area}")
+
+
+====================================
+EJERCICIO 17: Conversión de temperatura
+====================================
+celsius = float(input("Escribe la temperatura en grados Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print(f"{celsius}°C equivalen a {fahrenheit}°F")
+
+
+====================================
+EJERCICIO 18: Aplicar descuento
+====================================
+precio = float(input("Escribe el precio del producto: "))
+precio_final = precio - (precio * 0.15)
+print(f"El precio con 15% de descuento es: {precio_final}")
